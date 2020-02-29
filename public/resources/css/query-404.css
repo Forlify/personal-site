@@ -1,0 +1,60 @@
+ 
+/* small tablet to big tablet: from 481 to 700px */
+@media only screen and (max-width: 700px) {
+    body { font-size: 16px; }
+    
+    .row { width: 480px; }
+
+    .section__404 img {
+        width: 60%;
+        margin: 0 20%;
+    }
+
+    .section__404 h1 {
+        font-size: 320%;
+    }
+
+    .buttons {
+        padding: 0 32%;
+    }
+}
+
+ 
+ /* Small phones: from 381 to 480px */
+@media only screen and (max-width: 480px) {
+    body { font-size: 14px; }
+    
+    .row { width: 380px; }
+
+    .section__404 img {
+        width: 44%;
+        margin: 0 28%;
+    }
+
+    .section__404 h1 {
+        font-size: 270%;
+    }
+
+    .buttons {
+        padding: 0 33%;
+    }
+}
+
+ /* Small phones: from 0 to 380px */
+@media only screen and (max-width: 380px) {
+    
+    .row { width: 300px; }
+
+    .section__404 img {
+        width: 40%;
+        margin: 0 30%;
+    }
+
+    .section__404 h1 {
+        font-size: 250%;
+    }
+
+    .buttons {
+        padding: 0 33%;
+    }
+}

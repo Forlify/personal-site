@@ -1,0 +1,416 @@
+ /* big tablet to 1200px: from 1001 to 1200px */
+@media only screen and (max-width: 1200px) {
+    
+    .row {
+        max-width: 1000px;
+        padding: 0 2%;
+    }
+
+    .header__content {
+        height: 515px;
+    }
+    
+    .header__image { height: 515px; }
+    
+    .header__main-text img { width: 110%; }
+    
+    .header__main-text p {
+        font-size: 120%;
+        margin-top: 165px
+    }
+
+    .programming__text p {
+        margin: -7px 20px 0 30px;
+    }
+
+    .other__container{ height: 800px; }
+
+    .other__container .photo-1 { height: 340px; }
+
+    .other__container .photo-2 { 
+        height: 330px;
+        left: 60%; 
+    }
+
+    .other__container .photo-3 { height: 400px; }
+
+    .other__container .photo-4 { height: 260px; }
+    
+    .other__container p {
+        bottom: 10px;
+        font-size: 120%;
+        line-height: 25px
+    }
+}
+    
+/* small tablet to big tablet: from 781 to 1000px */
+@media only screen and (max-width: 1000px) {
+    body { font-size: 18px;}
+    section { padding: 60px 0 }
+    
+    .row { max-width: 780px; }
+    
+    .header__content { height: 400px; }
+    
+    .logo { margin: 20px 0 0 20px; }
+    
+    .header__image { height: 400px; }
+    
+    .header__main-text p {
+        font-size: 100%;
+        margin-top: 150px
+    }
+    
+    #triangle-topright {
+        border-top: 100px solid #d3d3d3;
+        border-left: 100px solid transparent;
+    }
+    
+    .section__programming { background-size: 70px; }
+    
+    .programming__text p {
+        font-size: 100%;
+        margin: 10px 20px 0 30px;
+    }
+    
+    .programming__container {
+        margin-bottom: 100px;
+        margin-top: 0;
+    }
+    
+    .timeline__container div { height: 140px; }
+    
+    .timeline__container h2 { font-size: 120%; }
+    
+    .timeline__container div h5 { font-size: 60%; }
+    
+    .section__other { padding: 100px 0 80px 0; }
+    
+    .other__container{ height: 650px; }
+
+    .other__container .photo-1 { height: 240px; }
+
+    .other__container .photo-2 { 
+        height: 240px;
+        left: 55%; 
+    }
+
+    .other__container .photo-3 { height: 330px; }
+
+    .other__container .photo-4 { height: 220px; }
+    
+    .other__container p {
+        bottom: 10px;
+        font-size: 100%;
+        line-height: 20px;
+        width: 265px;
+    }
+    
+}
+
+/* small tablet to big tablet: from 601 to 780px */
+@media only screen and (max-width: 780px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row { width: 600px; }
+    
+    .logo {
+        height: 35px;
+        margin: 15px 0 0 20px;
+    }
+    
+    .hamburger { display: inline-block; }
+    
+    .main-nav { display: none; }
+
+    .header__image { height: 300px; }
+    
+    .header__content { height: 300px; }
+    
+    .header__main-text h5 {
+        font-size: 90%;
+    }
+    
+    .header__main-text h1 {
+        font-size: 300%;
+        line-height: 30px;
+        margin-bottom: 7px
+    }
+    
+    .header__main-text p {
+        font-size: 80%;
+        margin-top: 115px;
+    }
+    
+    #triangle-topright {
+        border-top: 80px solid #d3d3d3;
+        border-left: 80px solid transparent;
+    }
+    
+    .section__programming { 
+        background-size: 55px;
+        padding-top: 10px;
+    }
+    
+    .programming__text p {
+        font-size: 90%;
+        margin: 10px 10px 0 10px;
+    }
+    
+    .programming__container { margin-bottom: 50px; }
+    
+    .timeline__container div { height: 110px; }
+    
+    .timeline__container div {
+        width: 32.8%;
+        margin: 0 0.5% 0 0;
+    }
+
+    .timeline__container div:first-of-type { margin-left:0; }
+    
+    .section__other { padding: 50px 0 50px 0; }
+    
+    .other__container{ height: 550px; }
+
+    .other__container .photo-1 { height: 200px; }
+
+    .other__container .photo-2 { 
+        height: 230px;
+        left: 63%;
+        top: 52%;
+    }
+
+    .other__container .photo-3 { height: 250px; }
+
+    .other__container .photo-4 { height: 170px; }
+    
+    .other__container p {
+        left: 6px;
+        bottom: 0px;
+        font-size: 90%;
+        line-height: 20px;
+        width: 230px;
+    }
+    
+    footer {
+        font-size: 70%;
+    }
+    
+    footer .col:first-child {
+        width: 70%;
+    }
+    footer .col:last-child {
+        width: 28%;
+    }
+}
+
+ /* Small phones: from 480 to 600px */
+@media only screen and (max-width: 600px) {
+
+    .col { 
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    
+    .row { width: 480px; padding: 0;}
+    
+    .header__about-me h3 {
+        margin: 0 0 40px 0;
+    }
+    
+    .header__image { 
+        height: 460px;
+        width: 460px;
+    }
+    
+    .header__content { 
+        height: 340px;
+        width: 460px;
+    }
+    
+    .header__main-text p { font-size: 110%; }
+    
+    #triangle-topright {
+        border-top: 0px solid #d3d3d3;
+        border-left: 0px solid transparent;
+    }
+    
+    .section__programming { padding-top: 50px; }
+    
+    .programming__text p {
+        font-size: 110%;
+        margin: 10px 0 0 0;
+    }
+    
+    .programming__image img {
+        width: 480px;
+    }
+    
+    .other__container{ height: 1040px; }
+
+    .other__container .photo-1 { width:480px; height: auto;}
+
+    .other__container .photo-2 { 
+        height: 240px;
+        left: 0; 
+        top: 34%;
+        -webkit-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+
+    .other__container .photo-3 { 
+        height: 240px;
+        top: 34%;
+    }
+
+    .other__container .photo-4 {
+        width: 480px;
+        height: auto; 
+    }
+    
+    .other__container p {
+        bottom: 300px;
+        left: 0;
+        font-size: 90%;
+        line-height: 14px;
+        width: 480px;
+    }
+    
+    footer {
+        font-size: 60%;
+    }
+}
+
+ /* Small phones: from 380 to 480px */
+@media only screen and (max-width: 480px) {
+    
+    .row { width: 380px; padding: 0;}
+    
+    .header__image { 
+        height: 360px;
+        width: 380px;
+    }
+    
+    .header__content { 
+        height: 370px;
+        width: 380px;
+    }
+    
+    .programming__image {
+        width: 380px;
+    }
+    
+    .programming__text p {
+        font-size: 100%;
+    }
+    
+    .timeline__container div { height: 80px; }
+    
+    .timeline__container h2 { font-size: 100%; }
+    
+    .timeline__container div h5 { 
+        font-size: 50%; 
+        top: 64%;
+    }
+    
+    .other__container{ height: 920px; }
+
+    .other__container .photo-1 { width:380px; height: auto;}
+
+    .other__container .photo-2 { 
+        height: 240px;
+        left: 0; 
+        top: 30%;
+        -webkit-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+
+    .other__container .photo-3 { 
+        height: 240px;
+        top: 30%;
+    }
+
+    .other__container .photo-4 {
+        width: 380px;
+        height: auto; 
+    }
+    
+    .other__container p {
+        bottom: 240px;
+        left: 0;
+        font-size: 90%;
+        line-height: 14px;
+        width: 380px;
+    }
+}
+
+ /* Small phones: from 0 to 380px */
+@media only screen and (max-width: 380px) {
+    .row { width: 300px; }
+    
+    .header__image { 
+        height: 280px;
+        width: 300px;
+    }
+    
+    .header__content { 
+        height: 340px;
+        width: 300px;
+    }
+    
+    .header__main-text p { font-size: 90%; }
+    
+    .programming__image { width: 300px; }
+    
+    .programming__text p { font-size: 90%; }
+    
+    .timeline__container div { height: 60px; }
+    
+    .timeline__container h2 { font-size: 80%; }
+    
+    .timeline__container div h5 { 
+        font-size: 40%; 
+        top: 62%;
+    }
+    
+    .section__programming { background-size: 30px; }
+    
+    .other__container{ height: 780px; }
+
+    .other__container .photo-1 { width:300px; height: auto; }
+
+    .other__container .photo-2 { 
+        height: 172px;
+        left: 0; 
+        top: 28%;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .other__container .photo-3 { 
+        height: 172px;
+        top: 28%;
+    }
+
+    .other__container .photo-4 {
+        width: 300px;
+        height: auto; 
+    }
+    
+    .other__container p {
+        bottom: 190px;
+        left: 0;
+        font-size: 90%;
+        line-height: 14px;
+        width: 300px;
+    }
+    
+    footer {
+        font-size: 60%;
+    }
+    .footer__nav li,
+    .social__links li {
+        margin-right: 5px;
+    }
+}

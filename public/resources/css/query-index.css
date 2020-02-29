@@ -1,0 +1,549 @@
+ /* big tablet to 1200px: from 1051 to 1200px */
+@media only screen and (max-width: 1200px) {
+    
+    .row {
+        max-width: 1000px;
+        padding: 0 2%;
+    }
+    
+    .header__hero-box { width: 760px; }
+    h1 {
+        font-size: 300%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    
+    #home {
+        height: 90vh;
+        background-size: contain,contain,45vh;
+    }
+
+    .header__hand {
+        height: 1.44vh;
+        top: 41.9vh;
+        right: 11.81vh;
+    }
+    
+    .header__hand-shadow {
+        height: 1.15vh;
+        top: 49.68vh;
+        right: 31.25vh;
+    }
+    
+    .about-me__container { top: 300px; }
+    .about-me__photo { width: 80%; }
+    .about-me__icon { 
+        padding: 26px;
+        width: 80%; 
+    }
+    .about-me__icon img { height: 20px; }
+    
+    .about-me__btn { 
+        right: 60px;
+        padding: 25px 80px 30px 60px;
+    }
+    
+    .recent-work__container-content img { height: 60%; }
+    
+    .resume__container img { padding-left: 20px; }
+    
+    .resume__text p { 
+        margin: 20px 20px 20px 50px;
+        font-size: 140%; 
+    }
+    
+    .resume__text { width: 60%; }
+    .resume__container { width: 38%; }
+}
+
+/* small tablet to big tablet: from 901 to 1050px */
+@media only screen and (max-width: 1050px) {
+    body { font-size: 18px;}
+    section { padding: 60px 0 }
+    .section__recent-work { padding-top: 80px; }
+    
+    .row { max-width: 900px; }
+    .section__contact .row { max-width: 700px; }
+    
+    .header__hero-box { width: 560px;}
+    h1 {
+        font-size: 240%;
+    }
+    h2 {
+        font-size: 120%;
+    }
+    
+    .about-me__overlapping-text {top: -15px;}
+    
+    .recent-work__container-content img { height: 50%; }
+}
+
+/* small tablet to big tablet: from 781 to 900px */
+@media only screen and (max-width: 900px) {
+    .row {
+        max-width: 700px;
+        padding: 0 2%;
+    }
+    
+    .row-small { width: 700px; }
+    
+    #home {
+        height: 60vh;
+        background-size: contain,contain,30vh;
+    } 
+
+    .header__hand {
+        height: 0.96vh;
+        top: 27.94vh;
+        right: 7.87vh;
+    }
+    
+    .header__hand-shadow {
+        height: 0.768vh;
+        top: 33.12vh;
+        right: 20.83vh;
+    }
+    
+    .logo {
+        margin: 20px 0 0 20px;
+    }
+    
+    .navigation__item {margin-bottom: 10px;}
+    
+    .header__hero-box { padding-top: 1vh; }
+    
+    .about-me__container { top: 220px; }
+    .about-me__photo { width: 60%; }
+    .about-me__icon { 
+        padding: 21px;
+        width: 60%;
+    }
+    .about-me__icon img { 
+        height: 16px; 
+        
+    }
+    
+    .about-me__btn { 
+        right: 140px;
+        font-size: 80%;
+        padding: 15px 60px 20px 40px;
+    }
+    
+    .about-me__btn img {
+        width: 16px;
+        margin: 0 0 0 7px;
+    }
+    
+    .about-me__triangle-1 {
+        height: 300px;
+    }
+    .about-me__triangle-2 {
+        height: 200px;
+    }
+    
+    .about-me__overlapping-text {
+        top: 60px;
+        font-size: 80%;
+    }
+    
+    .about-me__h4-1 {
+        top: -240px;
+        left: 10px;
+    }
+    .about-me__h4-2 {
+        top: -220px;
+        left: 30px;
+    }
+    .about-me__h4-3 {
+        top: -200px;
+        left: 50px;
+    }
+    .about-me__h4-4 {
+        top: -180px;
+        left: 70px;
+    }
+    .about-me__h4-5 {
+        top: -160px;
+        left: 90px;
+    }
+    .about-me__h4-6 {
+        top: -140px;
+        left: 110px;
+    }
+    .about-me__h4-7 {
+        top: -120px;
+        left: 130px;
+    }
+    .about-me__h4-8 {
+        top: -100px;
+        left: 150px;
+    }
+    .about-me__h4-9 {
+        top: -80px;
+        left: 170px;
+    }
+    .about-me__h4-10 {
+        top: -60px;
+        left: 190px;
+    }
+    
+    .section__recent-work { padding-top: 60px; }
+    
+    .recent-work__container:first-child {
+        float:none;
+    }
+    .recent-work__container:last-child {
+        float:none;
+    }
+
+    .recent-work__container {
+        margin:0 auto;
+        display: block;
+        width: 500px;
+        height: 360px;
+        margin-bottom: 50px;
+    }
+    
+    .recent-work__container-content img{ height: 70%; }
+    
+    .resume__text p {
+        font-size: 110%;
+        text-align: justify;
+        line-height: 30px;
+        margin: 30px 20px 20px 40px;
+    }
+    
+    .resume__container img {
+        height: 300px;
+        margin-top: 15px;
+    }
+    
+    footer {
+        font-size: 70%;
+    }
+}
+
+ /* big phones: from 601 to 780px */
+@media only screen and (max-width: 780px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row { padding: 0 4%; }
+    
+    .row-small { width: 90vw; }
+    
+    .col { 
+        width: 96%;
+        margin: 0 0 3% 0;
+    }
+    
+    .logo {
+        height: 35px;
+        margin: 15px 0 0 20px;
+    }
+    
+    .hamburger { display: inline-block; }
+    
+    .main-nav { display: none; }
+    
+    .header__hero-box { 
+        width: 510px;
+        padding-top: 0; 
+    }
+    
+    .about-me__btn img {
+        width: 13px;
+        margin: 0 0 0 6px;
+    }
+    
+    .about-me__triangle-1 {
+        height: 240px;
+    }
+    .about-me__triangle-2 {
+        height: 150px;
+    }
+    
+    .about-me__overlapping-text {
+        top: 90px;
+        font-size: 80%;
+    }
+    
+    .about-me__h4-1 {
+        top: -240px;
+        left: 10px;
+    }
+    .about-me__h4-2 {
+        top: -225px;
+        left: 25px;
+    }
+    .about-me__h4-3 {
+        top: -210px;
+        left: 40px;
+    }
+    .about-me__h4-4 {
+        top: -195px;
+        left: 55px;
+    }
+    .about-me__h4-5 {
+        top: -180px;
+        left: 70px;
+    }
+    .about-me__h4-6 {
+        top: -165px;
+        left: 85px;
+    }
+    .about-me__h4-7 {
+        top: -150px;
+        left: 100px;
+    }
+    .about-me__h4-8 {
+        top: -135px;
+        left: 115px;
+    }
+    .about-me__h4-9 {
+        top: -120px;
+        left: 130px;
+    }
+    .about-me__h4-10 {
+        display: none;
+    }
+    
+    .section__recent-work { padding-top: 40px; }
+    .recent-work__container-nav img{ width: 20px; }
+    .section__resume h3 {
+        margin: 0px 0 0px 0;
+    }
+    
+    .resume__container img { 
+        padding-left: 0px;
+        float:none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .resume__text {
+        margin-bottom: 10px;
+    }
+    
+    .resume__text p { 
+        margin: 20px 90px 20px 90px;
+        font-size: 140%; 
+    }
+
+    .contact-form { width: 80%; }
+    .section__contact p {
+        width: 80%;
+        margin: 30px 10%;
+    }
+    .contact__details:after {
+        width: 80%;
+    }
+    
+    .contact-form .col { margin: 0 0 9px 0; }
+    .whitespace { display: none; } 
+
+    textarea { height:120px; }
+    
+    input[type=text],
+    input[type=email],
+    select,
+    textarea { width:104%; }
+    
+    
+    footer .col:first-child {
+        width: 70%;
+    }
+    footer .col:last-child {
+        width: 29.9%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .row { width: 90vw; }
+    .row-small { width: 90vw; }
+    
+    .header__hero-box { width: 360px; }
+    h1 { font-size: 160%; }
+    h2 { font-size: 80%; }
+    
+    .resume__text p {margin: 10px 0 20px 0;}
+    
+    input[type=text],
+    input[type=email],
+    select,
+    textarea { width:100%;}
+    
+    .section__contact p {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .contact__details:after {
+        width: 100%;
+    }
+    
+    .contact-form {width: 100%;}
+    
+    .recent-work__container {
+        width: 100%;
+        height: 300px;
+    }
+    
+}
+
+ /* Small phones: from 380 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    
+    body { font-size: 14px; }
+    
+    .logo {
+        height: 30px;
+        margin: 5px 0 0 10px;
+    }
+    
+    .hamburger { 
+        top: 10px;
+        right: 10px;
+    }
+    
+    .navigation__list {
+        right: 10px;
+    }
+    
+    .navigation__item:first-child {
+        margin-top: 0px;
+    }   
+    
+    #home {
+        height: 40vh;
+        background-size: contain,contain,20vh;
+    }
+
+    .header__hand {
+        height: 0.64vh;
+        top: 18.62vh;
+        right: 5.25vh;
+    }
+    
+    .header__hand-shadow {
+        height: 0.512vh;
+        top: 22.08vh;
+        right: 13.88vh;
+    }
+    
+    .header__hero-box { 
+        width: 290px; 
+        margin-top: -10px;
+    }
+    h1 {
+        font-size: 140%;
+    }
+    h2 {
+        font-size: 70%;
+    }
+    
+    .about-me__container { top: 100px; }
+    .about-me__photo { width: 30%; }
+    .about-me__icon { 
+        padding: 12px;
+        width: 30%; 
+    }
+    .about-me__icon img { height: 15px; }
+    
+    .about-me__btn {
+        font-size: 70%;
+        right: 244px;
+        padding: 5px 40px 10px 25px;
+    }
+    
+    .about-me__btn img {
+        width: 11px;
+        margin: -1px 0 0 7px;
+    }
+    
+    .about-me__triangle-1 {
+        height: 140px;
+    }
+    .about-me__triangle-2 {
+        height: 80px;
+    }
+    
+    .about-me__overlapping-text {
+        top: 162px;
+        font-size: 60%;
+    }
+    
+    .about-me__h4-1 {
+        top: -250px;
+        left: 2px;
+    }
+    .about-me__h4-2 {
+        top: -240px;
+        left: 10px;
+    }
+    .about-me__h4-3 {
+        top: -230px;
+        left: 20px;
+    }
+    .about-me__h4-4 {
+        top: -220px;
+        left: 30px;
+    }
+    .about-me__h4-5 {
+        top: -210px;
+        left: 40px;
+    }
+    .about-me__h4-6 {
+        top: -200px;
+        left: 50px;
+    }
+    .about-me__h4-7 {
+        top: -190px;
+        left: 60px;
+    }
+    .about-me__h4-8 {
+        top: -180px;
+        left: 70px;
+    }
+    .about-me__h4-9 {
+        top: -170px;
+        left: 80px;
+    }
+    .about-me__h4-10 {
+        display: none;
+    }
+    
+    .recent-work__container-content img{ height: 60%; }
+
+    .resume__container img { 
+        height: 220px;
+    }
+
+    .contact__details { 
+        font-size: 140%; 
+        margin: 0px; 
+    }
+    .contact__details:after { margin-top: 25px; }
+    
+    
+    footer {
+        font-size: 60%;
+    }
+    .footer__nav li,
+    .social__links li {
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    
+    .recent-work__container-content h2{
+        padding: 90px 0 0 10px;
+    }
+    .recent-work__container-nav {
+        padding-left: 10px;
+    }
+}
