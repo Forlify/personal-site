@@ -1,12 +1,11 @@
 // REQUIRE ////////////////////////////////////////////////////////////////////
 
 const express = require('express')
-const bodyParser = require('body-parser')
-
 const app = express()
 
 // BASIC SETUP ////////////////////////////////////////////////////////////////////
 
+const port = process.env.PORT || 3000;
 app.use(express.static(__dirname + '/public'))
 app.set('views', __dirname + '/public')
 app.engine('html', require('ejs').renderFile)
@@ -24,7 +23,7 @@ app.get('*', (req, res) => {
 
 // LISTEN ////////////////////////////////////////////////////////////////////
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log(`Server running at http://localhost:3000`)
 })
 
